@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment-1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            p{
+                font-size: 30px;
+                text-align: center;
+            }
+            .container{
+            border:6px solid lightgray;
+            width: 1200px;height: 1400;
+            margin:0px auto;
+            padding:15px;
+       
+            }
+            .container:after{
+                content:'';
+                display:block;
+                clear:both;
+            }
+            #header{
+                height:70px;
+                background-color: grey;
+                color:white;
+                font-size: 40px;
+                margin-bottom: 15px;
+                /* center to the div*/
+                display:flex;
+                justify-content:center;
+                align-items: center;
+            }
+            #banner{
+                height:500px;
+                color:white;
+                margin-bottom: 15px;
+                font-size: 40px;
+                background-color: lightblue;
+                /* center to the div*/
+                display:flex;
+                justify-content:center;
+                align-items: center;
+            }
+            #photo{
+                border-radius: 50%;
+                background-color:goldenrod;
+                width:250px;
+                height:250px;
+                margin-right: 50px;
+                float:left;
+                margin-bottom: 15px;
+                }
+            #main{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 15px;
+            }
+            #content{
+                width:660.66px;
+                height:614.7px;
+                background-color: #808080;
+           
+                color: white;
+                font-size: 40px;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                margin-right:44.7px ;
+            }
+            #artical{
+                float:right;
+                display: flex;
+                flex-direction: column;
+            }
+            #article1{
+                order:1;
+                width:660.66px;
+                height:175.213px;
+                background-color: #D3691F;
+                color: white;
+                font-size: 40px;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                margin-bottom: 44.7px;
+            } 
+            #article2{
+                order:2;
+                width:660.66px;
+                height:175.213px;
+                background-color: #D3691F;
+                color: white;
+                font-size: 40px;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                margin-bottom: 44.7px;
+            } 
+            #article3{
+                order:3;
+                width:660.66px;
+                height:175.213px;
+                background-color: #D3691F;
+                color: white;
+                font-size: 40px;
+                display: flex;
+                justify-content:center;
+                align-items: center;
+                margin-bottom: 15px;
+            } 
+            #section{
+            background-color:orangered;
+            width:260px;
+            height:300px;
+            padding: 10px;
+            margin:0px 10px;
+            float:left;
+            margin-bottom: 15px;
+            }
+            #footer{
+                height:70px;
+                background-color: grey;
+                color:white;
+                font-size: 30px;
+                margin-bottom: 15px;
+                /* center to the div*/
+                display:flex;
+                justify-content:center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class=container>
+        <div id="header">
+            <p>Header</p>
+        </div>
+        <div id="banner">Banner</div>
+        <div>
+            <p>Section-1</p></div>
+            <div id="photo"></div>
+            <div id="photo"></div>
+            <div id="photo"></div>
+            <div id="photo"></div>
+            <p>Section-2</p>
+        <div id="main">
+            <div id="content">Main Content</div>
+            <div id="artical">
+                <div id="article1">Artical-1</div>
+                <div id="article2">Artical-2</div>
+                <div id="article3">Artical-3</div>
+            </div>
+        </div>
+            <p>Section-3</p>
+            <div id="section"></div>
+            <div id="section"></div>
+            <div id="section"></div>
+            <div id="section"></div>
+            <p>Section-4</p>
+            <div id="footer">Footer</div>
+        </div>
+    </body>
