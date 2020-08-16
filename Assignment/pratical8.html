@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Assignment-1</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            
+            #size {
+                font-size: 30px;
+                text-align: center;
+            }
+            #navbar{
+                position: fixed;
+                top:0;
+                width:100%;
+            }
+            ul{
+                margin-top:0px;
+                height:70px;
+                background-color: grey; 
+                font-size: 30px;
+                padding-left: 0px;
+                list-style: none;
+                display: flex;
+                justify-content: center;
+                margin-bottom: 50px;
+            }
+            ul li{
+                display:block;
+                padding-top:15px;
+                padding-left: 50px;
+            }
+            ul li a{
+                color:white;
+                text-decoration: none; 
+                font-family: Arial, Helvetica, sans-serif;   
+            }
+            ul li a:hover{
+                background-color: white;
+                color:black;
+                padding:5px;
+            }
+            #banner{
+                
+                background-image: url("../img/Ass81.png");
+                height:620px;
+                font-size: 40px;
+                color:white;
+            }
+            #photo{
+                
+                width:210px;
+                height:210px;
+                margin-right: 50px;
+                float:left;
+                margin-bottom: 15px;
+                margin-left:5px;
+                
+                }
+            #images{
+                    border-radius: 50%;
+            }
+            .main{
+                display: flex;
+                flex-direction: row;
+                margin-bottom: 15px;
+            }
+            .main:after{
+            content: ' ';
+            display: block;
+            clear: both;
+            }
+            #content{
+                width:47%;
+                height:420px;
+                background-color: #808080;
+                color: white;
+                font-size: 20px;
+                margin-right:44.7px ;
+            }
+            .artical{
+                float:right;
+                display: flex;
+                flex-direction: column;
+            }
+            #article1{
+                background-image: url(../img/Ass86.jpg);
+                order:1;
+                width:550px;
+                height:130px;  
+                color:black;
+                font-size: 25px;  
+                margin-bottom: 12px;
+                display:flex;
+                justify-content:center;
+            } 
+            #article2{
+                background-image: url(../img/Ass87.jpeg);
+                order:2;
+                width:550px;
+                height:130px;
+                color: black;
+                font-size: 25px;
+                margin-bottom: 12px;
+                display:flex;
+                justify-content:center;
+            } 
+            #article3{
+                background-image: url(../img/Ass88.jpg);
+                order:3;
+                width:550px;
+                height:130px;
+                color: black;
+                font-size: 25px;
+                margin-bottom: 15px;
+                display:flex;
+                justify-content:center;
+            } 
+
+            #section{
+            margin:50px 20px;
+            display: block;
+            text-align: justify;
+            background-color: lightgray;
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 18px;
+            padding: 25px;
+            width: 16%;
+            padding:20px;
+            margin-bottom:20px;
+            border:1px solid none;
+            text-align:center;
+            float: left;
+            border-radius: 9px;
+            margin:25px;
+            }
+            #adjustimg{
+                width: 95%;
+            height: 150px;
+            border-radius: 9px;
+            display: block;
+            margin: auto;
+            overflow: auto;
+            border-radius: 9px;
+            }
+            #atag{
+                display:block;
+            background-color: red;
+            width:auto;
+            text-align: center;
+            text-decoration: none;
+            color:white;
+            border-radius: 9px;
+            }
+            #atag:hover{
+                background-color: blue;
+            }
+            #sizes{
+                text-align: justify;
+            }
+            #footer{
+                height:70px;
+                background-color: pink;
+                color:white;
+                font-size: 20px;
+                margin-bottom: 15px;
+                /* center to the div*/
+                display:flex;
+                justify-content:center;
+                align-items: center;
+            }
+        </style>
+    </head>
+    <body>
+        <div class=container>
+            
+            <div id="navbar">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#about">ABOUT US</a></li>
+                    <li><a href="#team">TEAM</a></li>
+                    <li><a href="#technologies">TECHNOLOGIES</a></li>
+                    <li><a href="#contact" >CONTACT</a></li>
+                </ul>
+            </div>
+            <div id="banner">
+                <h2 id="ind">PRATICAL-8</h2> 
+            </div>
+            <div id="team"></div> 
+            <div>
+                <p id="size">Team Members</p></div>
+                <div id="photo"><img src="../img/Ass82.png" id="images"></div>
+                <div id="photo"><img src="../img/Ass83.png" id="images"></div>
+                <div id="photo"><img src="../img/Ass84.png" id="images"></div>
+                <div id="photo"><img src="../img/Ass85.png" id="images"></div>
+                <p id="size">About Us</p>
+                <div id="about"></div>
+            <div class="main">
+                <div id="content">
+                    <p><b>About Project</b></p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dolores temporibus iste cum repellendus. Commodi, adipisci est tenetur modi illo, libero accusamus nesciunt unde rerum iure atque. Harum suscipit cupiditate sit soluta repudiandae neque voluptates placeat sunt officiis recusandae doloribus, voluptatibus provident ea alias reprehenderit at? Illo tenetur magnam doloremque odio cum sunt ut in aperiam harum, corporis maiores at ipsum atque hic mollitia ducimus quidem dolorum delectus sequi laborum voluptatem. Maiores asperiores dolor a rerum nulla. In delectus praesentium inventore accusantium! Dolorum nemo distinctio commodi omnis nesciunt unde a corporis? Itaque aut omnis deleniti nisi minus quisquam dolorum neque exercitationem!</p>
+                </div>
+                <div class="artical">
+                    <div id="article1">Project-1</div>
+                    <div id="article2">Project-2</div>
+                    <div id="article3">Project-3</div>
+                </div>
+            </div>
+            <div id ="technologies"></div>
+            
+                <p id="size">Technologies</p>
+                <div id="section">  
+                    
+                 <img src="../img/HTML.png" alt="html" id="adjustimg">
+                <h3>Introduction to HTML</h3>
+                <p id="sizes">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima voluptates voluptate laboriosam, est dignissimos officiis?</p>
+                <a href="HTML.html" id="atag">Read More</a>
+                </div>
+                <div id="section">
+                    <img src="../img/CSS.jpg" alt="CSS" id="adjustimg">
+                    <h3>Introduction to HTML</h3>
+                <p id="sizes">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima voluptates voluptate laboriosam, est dignissimos officiis?</p>
+                <a href="CSS.html" id="atag">Read More</a>
+                </div>
+                <div id="section">
+                    <img src="../img/BS.jpg" alt="Bootstrap" id="adjustimg">
+                    <h3>Introduction to HTML</h3>
+                <p id="sizes">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima voluptates voluptate laboriosam, est dignissimos officiis?</p>
+                <a href="Bootstrap.html" id="atag">Read More</a>
+                </div>
+                <div id="section">
+                    <img src="../img/JS.png" alt="JavaScript" id="adjustimg">
+                    <h3>Introduction to HTML</h3>
+                <p id="sizes">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima voluptates voluptate laboriosam, est dignissimos officiis?</p>
+                <a href="JS.html" id="atag">Read More</a>
+                </div>
+                </div>
+            
+                <p id="size">Contact</p>
+                <div id="contact"></div>
+                <div id="footer">
+                    <p>Website Template for Practical-8 &copy;<a href="https://www.beta-labs.in/" target="_blank">Beta-Labs</a></p> 
+                <br>
+                <a href="#top">Back To Top</a>
+                </div>
+            </div>
+    </body>
+</html>
